@@ -1,0 +1,5 @@
+version=3
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-split2-$1.tar.gz/ \
+ https://github.com/mcollina/split2/tags .*/archive/v?([\d\.]+).tar.gz

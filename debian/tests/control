@@ -1,0 +1,5 @@
+Test-Command: nodejs debian/tests/myexample1.js
+Depends: @
+
+Test-Command: nodejs debian/tests/myexample2.js
+Depends: @

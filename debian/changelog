@@ -1,0 +1,66 @@
+node-split2 (3.2.2-2) unstable; urgency=low
+
+  * debian/control: add node-tape to Build-Depends
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Thu, 10 Sep 2020 06:13:28 +0800
+
+node-split2 (3.2.2-1) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ Ying-Chun Liu (PaulLiu) ]
+  * New upstream version 3.2.2
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Sat, 05 Sep 2020 23:45:49 +0800
+
+node-split2 (3.1.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:43:59 +0200
+
+node-split2 (3.1.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Move installed files to /usr/share/nodejs
+  * Add upstream/metadata
+  * Fix install
+  * Switch test to pkg-js-tools
+  * Fix debian/copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 24 Jul 2019 14:11:57 +0200
+
+node-split2 (3.1.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Sat, 13 Jul 2019 00:50:06 +0800
+
+node-split2 (2.2.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Change Section from web to javascript
+  * Bump Standards-Version to 4.1.0: nothing needs to be changed
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Thu, 05 Oct 2017 02:38:31 +0800
+
+node-split2 (2.1.1-2) unstable; urgency=low
+
+  * Enhance autopkgtest: Add more tests
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Tue, 01 Aug 2017 10:52:25 +0800
+
+node-split2 (2.1.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #866189)
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Wed, 28 Jun 2017 03:25:07 +0000
